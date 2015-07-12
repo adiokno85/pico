@@ -1,0 +1,172 @@
+/*The '*' selector selects all elements.*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	/*#2A2A2A Hex Color - RGB: 42, 42, 42*/
+	background-color: #2A2A2A;
+}
+
+/*top navigation*/
+nav {
+	/*#262626 Hex Color - RGB: 38, 38, 38 */
+	background-color: #262626;
+	height: 80px;
+}
+
+nav #logo {
+	color: #fff;
+	line-height: 20px;
+	font-size: 24px;
+	float: left;
+/*The 2-value syntax:The first value represents the vertical, 
+that is top and bottom, edges, the second the horizontal ones, 
+that is the left and right ones.*/ 
+	padding: 15px 15px;
+	padding-left:35px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+nav ul {
+	float: right;
+	padding: 15px 15px;
+	padding-right: 35px;
+	font-size: 14px;
+	margin-top: 20px;
+	font-weight: bold;
+	font-family: arial;
+}
+ 
+nav ul li {
+	display: inline;
+	/*'list-style-type" specifies the type of list-item marker*/
+	list-style-type: none;
+}
+
+nav ul li.active a {
+	color: #FF6760;
+}
+
+nav ul li a {
+	color: #D8D8D8;
+	/*text-docoration will remove the default underline*/
+ 	text-decoration: none;
+ 	/*margin property will add spacing between each list item to improve readability*/
+ 	margin-right: 35px;
+ 	/*The text-transform property controls the capitalization of text*/
+ 	text-transform: uppercase;
+ }
+
+ /*header section*/
+ header {
+ 	color: #D8D8D8;
+ 	/*The 'text-align' property specifies the horizontal alignment of text in an element./
+ 	"center" value centers the text*/
+ 	text-align: center;
+ 	font-family: 'Open Sans', sans-serif;
+ }
+
+ header h1 {
+ 	margin-top: 65px;
+ 	font-size: 48px;
+ 	/*Defines from thin to thick characters. */
+ 	/*400 is the same as normal,*/
+ 	 /*700 is the same as bold*/
+ 	font-weight: 300;
+ }
+
+header h1 span {
+	font-weight: bold;
+}
+
+header h2 {
+	font-size:36px;
+	margin: 25px 0;
+	font-weight: 300;
+}
+/*give the ampersand wrapped with the <span> tags some color*/
+header h2 span {
+	color: #EB615B;
+}
+
+header a {
+	display: inline-block;
+	background-color: #FF6760;
+	padding: 15px 20px;
+	/*The 'border-radius' property defines how rounded border corners are*/
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 10px 0 75px;	
+	color: #fff;
+}
+
+/*descricptions*/
+#descriptions {
+	background-color: #F6F6F6;
+	color: #616161;
+}
+
+.item {
+	width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 25px 0;
+    padding: 5px 0 20px;
+}
+
+.item h4 {
+	font-size: 20px;
+	padding: 5px 0;
+}
+
+.item p {
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+
+/*footer*/
+footer {
+	color: #D8D8D8;
+	text-align: center;
+}
+
+footer h3 {
+	margin: 50px 0 25px;
+	font-size: 26px;
+}
+
+footer p {
+	font-size: 16px;
+	color: #858585;
+	padding: 3px;
+}
+
+footer p a {
+	color: #793F3D;
+}
+
+#social_icons {
+	margin: 15px 0 50px;
+}
+
+#social_icons a {
+	color: #fff;
+}
+
+#social_icons .fa-twitter-square {
+	background-color: #5DAED5;
+	border-radius: 50%;
+	padding: 5px 8px;
+}
+
+#social_icons .fa-facebook-square {
+	background-color: #4470CF;
+	border-radius: 50%;
+	padding: 5px 8px;
+}
